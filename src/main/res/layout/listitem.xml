@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/list_item">
+    <TextView
+        android:id="@+id/txtDate"
+        android:text="20-03-2015"
+        android:layout_marginTop="5dp"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtItem"
+        android:text="Chicken"
+        android:layout_marginTop="5dp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtPrice"
+        android:text="300.0"
+        android:layout_marginTop="5dp"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtShare"
+        android:layout_marginTop="5dp"
+        android:text="A S M"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
